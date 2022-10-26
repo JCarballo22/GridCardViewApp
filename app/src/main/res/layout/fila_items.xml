@@ -13,31 +13,33 @@
         android:layout_height="wrap_content"
         android:layout_margin="8dp">
 
+
+
         <ImageView
-            android:id="@+id/iv_Nombre"
+            android:id="@+id/iv_Imagen"
             android:layout_width="50dp"
             android:layout_height="50dp"
-            android:layout_CenterInParent="true"
-            android:src="@mipmap/ic_launcher" />
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/ic_launcher_background" />
 
         <TextView
             android:id="@+id/tv_Nombre"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/iv_Nombre"
+            android:layout_below="@id/iv_Imagen"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="20dp"
             android:text="Nombre"
             android:textSize="16sp" />
 
         <TextView
-            android:id="@+id/tv_Descripcion"
+            android:id="@+id/tv_Departamento"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/tv_Nombre"
             android:layout_centerHorizontal="true"
             android:padding="2dp"
-            android:text="descripcion"
+            android:text="Departamento"
             android:textSize="14sp" />
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
